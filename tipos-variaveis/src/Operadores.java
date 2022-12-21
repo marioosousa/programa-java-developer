@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import javax.swing.text.html.HTMLDocument.BlockElement;
+
 public class Operadores {
     public static void main(String[] args){
         String nomeCompleto = "Linguagem" + "Java";
@@ -67,5 +69,50 @@ public class Operadores {
         String resultado2 = a==b ?"verdadeiro" : "falso";
         System.out.println(resultado2);
 
+        //Valores Bolenaos: os operadores relacionais
+        System.out.println("Digite um valor para o Nnmero 1: ");
+        int numero1 = teclado.nextInt();
+        System.out.println("Digite um valor para o número 2: ");
+        int numero2 = teclado.nextInt();
+
+        boolean simNao = numero1 == numero2;
+
+        if(numero1 < numero2){
+            System.out.println("A nossa Condição é verdadeira!");
+        }
+
+        System.out.println("Número 1 é igual ao número 2? " + simNao);
+
+        simNao = numero1 != numero2;
+        System.out.println("Número 1 é diferete do número 2? " + simNao);
+
+        simNao = numero1 > numero2;
+        System.out.println("Número 1 é maior do que o número 2? " + simNao);
+
+        System.out.print("Digite o nome 1: ");
+        String nome1 = teclado.nextLine();
+        teclado.nextLine();
+        System.out.print("Digite o nome 2: ");
+        String nome2 = teclado.nextLine();
+        System.out.println(nome1 == nome2.intern());
+        simNao = nome1.equals(nome2);
+        System.out.println(simNao);
+
+        //Valores Bolenaos: os operadores lógicos
+
+        boolean condicao1 = true;
+
+        boolean condicao2 = true;
+
+        if(condicao1 && condicao2){
+            System.out.println("As duas condições são verdadeiras");
+        }
+        else
+            System.out.println("As duas condições são diferentes");
+        
+        if(condicao1 || condicao2){
+            System.out.println("Uma das condições é verdadeira");
+        }
+        System.out.println("Fim");
     }
 }
