@@ -24,3 +24,6 @@ hs_err_pid*
 tipos-variaveis/.vscode/settings.json
 sistema-smart-tv/.vscode/settings.json
 cauculadora-javadoc/.vscode/settings.json
+terminal-e-argumentos/.vscode/settings.json
+.vscode/launch.json
+ContaBanco/.vscode/settings.json
