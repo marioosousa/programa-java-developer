@@ -9,7 +9,7 @@ public class Problem3 {
 
 //complete os espaços em branco com sua solução para o problema
 
-		for (int i = 0; i <=   C  ; i++) {
+		for (int i = 0; i <   C  ; i++) {
 			nome = leitor.next();
 			N = leitor.nextInt();
 			if (nome.equals("Thor")) System.out.println("Y");
