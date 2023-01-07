@@ -8,7 +8,6 @@ public class ExemploExcecao {
             number = NumberFormat.getInstance().parse("a1.75");
             System.out.println(number);
         } catch (ParseException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
